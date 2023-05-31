@@ -1,0 +1,61 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office'
+xmlns:x='urn:schemas-microsoft-com:office:excel'
+xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<style>
+@page{margin:.3in .3in .3in .3in;
+mso-data-placement:same-cell;
+mso-page-Zoom:False;
+mso-page-Fit To:yes;
+mso-page-FitToPagesWide:True;
+mso-paper-source:0;
+mso-page-Scaling:Fit2Page;
+mso-page-orientation:landscape;}
+</style>
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>Sheet1</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+<x:PaperSizeIndex>9</x:PaperSizeIndex>
+<x:Scale>65</x:Scale><x:FitWidth>1</x:FitWidth><x:FitHeight>999</x:FitHeight><x:HorizontalResolution>20</x:HorizontalResolution>
+<x:VerticalResolution>20</x:VerticalResolution>
+</x:Print>
+<x:Selected/>
+<x:DoNotDisplayGridlines/>
+<x:ProtectContents>False</x:ProtectContents>
+<x:ProtectObjects>False</x:ProtectObjects>
+<x:ProtectScenarios>False</x:ProtectScenarios>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+<x:WindowHeight>12780</x:WindowHeight>
+<x:WindowWidth>19035</x:WindowWidth>
+<x:WindowTopX>0</x:WindowTopX>
+<x:WindowTopY>15</x:WindowTopY>
+<x:ProtectStructure>False</x:ProtectStructure>
+<x:ProtectWindows>False</x:ProtectWindows>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+<br/><div align="center" style="margin-left:200"><img src="https://g4sact.myndsolution.com/logo/g4slogo.png"/><div align="center"><br/><b><h3>Form C<br/>REGISTER OF LOAN/ RECOVERIES</h3></b></div> 
+<div align="left"> <br/><b>Name of the Establishment :</b> G4S SECURE SOLUTIONS (INDIA) PVT.LTD., Office No 303 , 3rd floor, Sun Squre, Between Girish Cold drink & Xaviers Corner off C.G Road, Nr. Nest Hotel Navrangpura , Ahmadabad 380009<br/>   <b>Name of Owner : </b>Agilent Technologies India Pvt Ltd 2ND FLOOR, ZODIAC AVENUE NR. LAW GARDEN, ELLISBRIDGE OPP. MAYORS BUNGLOW<br/>  LIN : __________________________ <br/ <b>For the month of : </b>May, 2021</div><div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr style="background-color:White;font-family:Arial Narrow;font-size:8pt;font-weight:normal;">
+			<th scope="col" style="width:45px;">Sl. No.</th><th scope="col" style="width:90px;">Name</th><th scope="col" style="width:45px;">Recovery Type (Damage/loss/fine/advance/loans)</th><th scope="col" style="width:45px;">Particulars</th><th scope="col" style="width:60px;">Date of damage/Loss*</th><th scope="col" style="width:45px;">Amount</th><th scope="col" style="width:45px;">Whether show cause issued</th><th scope="col" style="width:45px;">Explanation heard in presence of</th><th scope="col" style="width:45px;">Number of Instalments</th><th scope="col" style="width:45px;">First Month/Year</th><th scope="col" style="width:45px;">Last Month/Year</th><th scope="col" style="width:60px;">Date of Complete Recovery</th><th scope="col" style="width:45px;">Remarks</th>
+		</tr><tr style="font-family:Arial Narrow;font-size:8pt;">
+			<td>1</td><td>MANSARAM RAMSUBHAVAN KORI</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr style="font-family:Arial Narrow;font-size:8pt;">
+			<td>2</td><td>AMRUT ARJUN BHATIA</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr style="font-family:Arial Narrow;font-size:8pt;">
+			<td>3</td><td>RAMESHKUMAR PARKHABHAI PARMAR</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr style="font-family:Arial Narrow;font-size:8pt;">
+			<td>4</td><td>NAVIN KUMAR RATHOR</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr>
+	</table>
+</div>
+<br/><div align="center" style="margin-left:200"><img src="https://g4sact.myndsolution.com/logo/g4s_stamp.png"/>

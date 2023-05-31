@@ -1,0 +1,92 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+     
+}
+
+ 
+
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Transfer files In SFTP format</h2>
+
+
+        <div class="pull-right">
+            <button type="button" class="btn btn-primary" id="btnSFTPLOC" title="Localstructure" data-toggle="modal">
+                <i class="fa fa-check"></i> LocalTF
+            </button>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <h2>Create ZIP File</h2>
+        <div class="pull-right">
+            <button type="button" class="btn btn-primary" id="btnZIP" title="ZIP" data-toggle="modal">
+                <i class="fa fa-check"></i>Create ZIP
+            </button>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <h2>Transfer ZIP file to SFTP</h2>
+        <div class="pull-right">
+            <button type="button" class="btn btn-primary" id="btnSFTP" title="SFTP" data-toggle="modal">
+                <i class="fa fa-check"></i> SFTPTF
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="row" style="margin-top: 33%;">
+</div>
+
+
+@section commanscript {
+
+    @Scripts.Render("~/Content/CommanScript")
+    <script type="text/javascript">
+    $(document).ready(function () {
+
+         $("#btnSFTPLOC").click(function () {
+               // var form = $('#__AjaxAntiForgeryForm');
+               // var token = $('input[name="__RequestVerificationToken"]', form).val();
+                    // $.post("RunSchudler", { StartDate: StartDate, EndDate: EndDate }, function (response) {
+                $.post("@Url.RouteUrl("FileTF")", {  }, function (response) {
+                        if (response.IsSuccess) {
+                              alert("File Transfer Success.");
+                        }
+                        else { alert("Something went wrong , please try again later."); }
+                    });
+         });
+
+         $("#btnZIP").click(function () {
+               // var form = $('#__AjaxAntiForgeryForm');
+               // var token = $('input[name="__RequestVerificationToken"]', form).val();
+                   
+                $.post("@Url.RouteUrl("CreateZIP")", {  }, function (response) {
+                        if (response.IsSuccess) {
+                           // alert("File ZIP Success.");
+                            alert(response.Message);
+                        }
+                        else { alert("Something went wrong , please try again later."); }
+                    });
+         });
+
+        $("#btnSFTP").click(function () {
+               // var form = $('#__AjaxAntiForgeryForm');
+               // var token = $('input[name="__RequestVerificationToken"]', form).val();
+                     
+                $.post("@Url.RouteUrl("CopyToSFTP")", {  }, function (response) {
+                        if (response.IsSuccess) {
+                           // alert("File CopyToSFTP Success.");
+                            alert(response.Message);
+                        }
+                        else { alert("Something went wrong , please try again later."); }
+                    });
+            });
+    })
+
+
+       
+   
+    </script>
+    }
+
